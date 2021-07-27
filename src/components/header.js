@@ -9,7 +9,13 @@ const Header = () => {
         <div className={style.flexContainer}>
           <Link href="/">
             <a>
-              <Image src="/images/logo.png" alt="logo" width={50} height={50} />
+              <Image
+                src="/images/headerLogo.png"
+                alt="logo"
+                width={200}
+                height={80}
+                className={style.headerLogo}
+              />
             </a>
           </Link>
           <ul>

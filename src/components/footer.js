@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <footer className={style.footerWrapper}>
       <div className={style.insideContainer}>
-        <a href="https://www.google.com/">
+        <a href="https://github.com/Imkn1018">
           <img src="/images/github.svg" alt="logo" />
         </a>
         <a href="https://www.google.com/">
@@ -14,7 +14,7 @@ const Footer = () => {
         <a href="https://www.google.com/">
           <img src="/images/twitter.svg" alt="logo" />
         </a>
-        <a href="https://www.google.com/">
+        <a href="https://www.facebook.com/profile.php?id=100010857344034">
           <img src="/images/facebook.svg" alt="logo" />
         </a>
         <hr />
@@ -24,7 +24,7 @@ const Footer = () => {
         <Link href="/contact">
           <a>Contact</a>
         </Link>
-        <p>©{new Date().getFullYear()} Abe Hiroki</p>
+        <p>©{new Date().getFullYear()} Kentaro Imai</p>
       </div>
     </footer>
   );
