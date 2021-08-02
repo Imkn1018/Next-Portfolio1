@@ -3,6 +3,7 @@ import Image from 'next/image';
 import Layout from '../components/layout';
 import Seo from '../components/seo';
 import * as style from '../styles/index.module.scss';
+import { Skills } from '../components/oraganisms/Skills';
 
 const Index = () => {
   return (
@@ -24,19 +25,15 @@ const Index = () => {
       <div className={style.container}>
         <div className={style.profile}>
           <div>
-            <h2>JavaScript Nerd</h2>
-            <p>
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text
-              ever since the 1500s, when an unknown printer took a galley of
-              type and scrambled it to make a type specimen book. It has
-              survived not only five centuries, but also the leap into
-              electronic typesetting, remaining essentially unchanged. It was
-              popularised in the 1960s with the release of Letraset sheets
-              containing Lorem Ipsum passages, and more recently with desktop
-              publishing software like Aldus PageMaker including versions of
-              Lorem Ipsum.
-            </p>
+            <h1>Kentaro Imai</h1>
+            <br />
+            <p>神奈川県横浜市出身。</p>
+
+            <p>大学・大学院で海洋科学を専攻。</p>
+
+            <p>地元の地方公務員として一年務めたのち、</p>
+            <p>フロントエンドエンジニアを目指して,</p>
+            <p>日々学習を続けている。</p>
           </div>
           <Image
             src="/images/profile.jpg"
@@ -46,27 +43,9 @@ const Index = () => {
             quality={90}
           />
         </div>
-        <div className={style.skills}>
-          <h2>Skills</h2>
-          <div className={style.skillsContainer}>
-            <div>
-              <img src="/images/javascript.svg" alt="javascript" />
-              <span>JavaScript / 10 years</span>
-            </div>
-            <div>
-              <img src="/images/react.svg" alt="react" />
-              <span>React / 5 years</span>
-            </div>
-            <div>
-              <img src="/images/gatsby.svg" alt="gatsby" />
-              <span>Gatsby / 3 years</span>
-            </div>
-            <div>
-              <img src="/images/next.svg" alt="next" />
-              <span>Next.JS / 3 years</span>
-            </div>
-          </div>
-        </div>
+
+        <Skills />
+
         <div className={style.ctaButton}>
           <Link href="/contact">
             <a>Make It Happen!</a>
