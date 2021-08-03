@@ -13,7 +13,9 @@ const Index = () => {
         <Image
           src="/images/index-hero.jpg"
           alt="hero"
-          layout="fill"
+          // layout="fill"
+          width={2000}
+          height={1000}
           objectFit="cover"
           quality={90}
         />
