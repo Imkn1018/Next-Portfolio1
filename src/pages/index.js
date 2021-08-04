@@ -15,7 +15,7 @@ const Index = () => {
           src="/images/index-hero.jpg"
           alt="hero"
           // layout="fill"
-          width={2000}
+          width={1700}
           height={1000}
           objectFit="cover"
           quality={90}
@@ -26,6 +26,9 @@ const Index = () => {
         </div>
       </div>
       <div className={style.container}>
+        <div>
+          <h2>Profile</h2>
+        </div>
         <div className={style.profile}>
           <div>
             <h1>Kentaro Imai</h1>
