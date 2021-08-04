@@ -8,9 +8,7 @@ const Footer = () => {
         <a href="https://github.com/Imkn1018">
           <img src="/images/github.svg" alt="logo" />
         </a>
-        <a href="https://www.google.com/">
-          <img src="/images/linkedin.svg" alt="logo" />
-        </a>
+
         <a href="https://www.google.com/">
           <img src="/images/twitter.svg" alt="logo" />
         </a>

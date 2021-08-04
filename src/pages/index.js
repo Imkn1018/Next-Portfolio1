@@ -4,6 +4,7 @@ import Layout from '../components/layout';
 import Seo from '../components/seo';
 import * as style from '../styles/index.module.scss';
 import { Skills } from '../components/oraganisms/Skills';
+import { Works } from '../components/oraganisms/Works';
 
 const Index = () => {
   return (
@@ -45,7 +46,7 @@ const Index = () => {
             quality={90}
           />
         </div>
-
+        <Works />
         <Skills />
 
         <div className={style.ctaButton}>

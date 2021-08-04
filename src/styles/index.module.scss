@@ -47,6 +47,57 @@
     margin-bottom: 0;
   }
 }
+.works {
+  margin: 0 auto;
+  h2 {
+    text-align: center;
+    margin-bottom: 7rem;
+    @media (max-width: $break-s) {
+      margin-bottom: 3rem;
+    }
+  }
+  .worksWrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    justify-content: space-between;
+    justify-items: center;
+    align-items: center;
+    .worksImageContainer {
+      position: relative;
+      min-height: 100px;
+      .portfolioImage {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+      }
+    }
+    .worksContainer {
+      margin: 2%;
+      padding: 2%;
+      width: 320px;
+      height: 400px;
+      border-radius: 2%;
+      position: relative;
+      box-shadow: 0px 4px 25px rgba(38, 78, 118, 0.1);
+      @media (max-width: $break-m) {
+        margin: 2% auto;
+      }
+      @media (max-width: $break-s) {
+        margin: 2% auto;
+      }
+      .intro {
+        padding-top: 5%;
+      }
+      .introFooter {
+        position: absolute;
+        right: 0;
+        bottom: 0;
+      }
+    }
+  }
+}
 
 .skills {
   padding: 0 0 10rem;
