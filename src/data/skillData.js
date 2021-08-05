@@ -1,11 +1,11 @@
 export default [
   {
     imageicon: '/images/skills/html-5.svg',
-    text: 'JavaScript',
+    text: 'HTML',
   },
   {
     imageicon: '/images/skills/css-3.svg',
-    text: 'JavaScript',
+    text: 'CSS',
   },
   {
     imageicon: '/images/skills/javascript.svg',
@@ -13,11 +13,19 @@ export default [
   },
   {
     imageicon: '/images/skills/sass.svg',
-    text: 'React',
+    text: 'Sass',
   },
   {
     imageicon: '/images/skills/react.svg',
     text: 'React',
+  },
+  {
+    imageicon: '/images/skills/nodejs.svg',
+    text: 'Node.js',
+  },
+  {
+    imageicon: '/images/skills/webpack.svg',
+    text: 'Webpack',
   },
   {
     imageicon: '/images/skills/typescript-icon.svg',
@@ -29,26 +37,43 @@ export default [
   },
   {
     imageicon: '/images/skills/tailwindcss-icon.svg',
-    text: 'JavaScript',
+    text: 'Tailwindcss',
   },
   {
     imageicon: '/images/skills/material-ui.svg',
-    text: 'JavaScript',
+    text: 'Material-uit',
   },
   {
     imageicon: '/images/skills/ruby.svg',
-    text: 'JavaScript',
+    text: 'Ruby',
   },
   {
     imageicon: '/images/skills/rails.svg',
-    text: 'JavaScript',
+    text: 'Ruby on rails',
   },
   {
     imageicon: '/images/skills/python.svg',
-    text: 'JavaScript',
+    text: 'Python',
+  },
+  {
+    imageicon: '/images/skills/r-lang.svg',
+    text: 'R',
   },
   {
     imageicon: '/images/skills/aws.svg',
-    text: 'JavaScript',
+    text: 'AWS',
+  },
+  {
+    imageicon: '/images/skills/vercel-icon.svg',
+    text: 'Vercel',
+  },
+  {
+    imageicon: '/images/skills/firebase.svg',
+    text: 'Firebase',
+  },
+
+  {
+    imageicon: '/images/skills/swift.svg',
+    text: 'Swift',
   },
 ];

@@ -131,9 +131,12 @@
         padding-right: 4%;
       }
     }
+
     .workModal {
       .modalHeader {
         display: flex;
+        flex-direction: row;
+        justify-content: space-between;
       }
     }
   }
@@ -174,9 +177,15 @@
       align-items: center;
       gap: 3rem;
       font-weight: 500;
-    }
-    img {
-      width: 100px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      img {
+        width: 100px;
+      }
+      p {
+        color: gray;
+      }
     }
   }
 }

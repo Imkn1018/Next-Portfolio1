@@ -4,9 +4,15 @@ export default [
     backImage: 'https://source.unsplash.com/ix_kUDzCczo',
     image: '/images/toppage.png',
     title: 'My Top Page',
-    path: '',
+    path: 'https://nextjs-portfolio-top.vercel.app/',
     description: '自己紹介用のHPとなります。',
     createdDate: 'July , 2021',
+    skills: [
+      '/images/skills/react.svg',
+      '/images/skills/nextjs-icon.svg',
+      '/images/skills/sass.svg',
+      '/images/skills/vercel-icon.svg',
+    ],
   },
   {
     id: 2,
@@ -14,9 +20,15 @@ export default [
 
     image: '/images/wisher.png',
     title: 'wisher',
-    path: '',
+    path: 'http://18.183.3.251',
     description: '人生で叶えたいことを記録しておくためのアプリです。',
     createdDate: 'June , 2021',
+    skills: [
+      '/images/skills/react.svg',
+      '/images/skills/rails.svg',
+      '/images/skills/sass.svg',
+      '/images/skills/aws.svg',
+    ],
   },
   {
     id: 3,
@@ -24,9 +36,15 @@ export default [
 
     image: '/images/YoutubeCloneApp.png',
     title: 'Youtube Clone APP',
-    path: '',
+    path: 'https://reactjs-youtube-first-px5yn8tgb-imkn1018.vercel.app/',
     description:
       'YoutubeAPIを使用した、YoutubeのクローンAPPです。グローバルステイト管理の実践として開発しました。',
     createdDate: 'May , 2021',
+    skills: [
+      '/images/skills/react.svg',
+      '/images/skills/nextjs-icon.svg',
+      '/images/skills/sass.svg',
+      '/images/skills/vercel-icon.svg',
+    ],
   },
 ];

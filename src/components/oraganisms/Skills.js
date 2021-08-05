@@ -11,6 +11,7 @@ export const Skills = () => {
         {data.map((item) => (
           <div className={style.skillicon}>
             <Image src={item.imageicon} height="80" width="80" />
+            <p>{item.text}</p>
           </div>
         ))}
       </div>
