@@ -4,7 +4,7 @@ uid: 2
 title: 'フロントエンドエンジニアになりたい理由'
 date: '2021-07-25'
 image: /images/pic2.jpg
-excerpt: Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+excerpt: 自分のキャリアについてもう一度見直してみました。
 ---
 
 こんにちはー。

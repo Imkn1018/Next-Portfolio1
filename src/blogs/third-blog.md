@@ -4,7 +4,7 @@ uid: 3
 title: '2021-07-26'
 date: '2021-07-26'
 image: /images/pic3.jpg
-excerpt: Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+excerpt: 2021年7月26日の振り返りです。
 ---
 
 今日の振り返り

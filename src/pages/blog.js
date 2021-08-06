@@ -13,29 +13,30 @@ const Blog = ({ blogs, numberPages }) => {
       <div className={style.wrapper}>
         <div className={style.container}>
           <h1>Blog</h1>
-          <p>エンジニアの日常生活をお届けします</p>
+          <p>学んだことのアウトプット場。</p>
           {blogs.map((blog, index) => {
             const { title, date, excerpt, image } = blog.frontmatter;
             return (
-              <div key={index} className={style.blogCard}>
-                <div className={style.textContainer}>
-                  <h3>{title}</h3>
-                  <p>{excerpt}</p>
-                  <p>{date}</p>
-                  <Link href={`/blog/${blog.slug}`}>
-                    <a>Read More</a>
-                  </Link>
-                </div>
-                <div className={style.cardImg}>
-                  <Image
-                    src={image}
-                    alt="card-image"
-                    height={300}
-                    width={1000}
-                    quality={90}
-                  />
-                </div>
-              </div>
+              <Link href={`/blog/${blog.slug}`}>
+                <a>
+                  <div key={index} className={style.blogCard}>
+                    <div className={style.textContainer}>
+                      <h3>{title}</h3>
+                      <p>{excerpt}</p>
+                      <p>{date}</p>
+                    </div>
+                    <div className={style.cardImg}>
+                      <Image
+                        src={image}
+                        alt="card-image"
+                        height={300}
+                        width={1000}
+                        quality={90}
+                      />
+                    </div>
+                  </div>
+                </a>
+              </Link>
             );
           })}
         </div>

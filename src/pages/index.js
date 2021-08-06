@@ -12,7 +12,7 @@ const Index = () => {
       <Seo title="Imkn" description="Kentaro Imaiのポートフォリオサイトです" />
       <div className={style.hero}>
         <Image
-          src="/images/index-hero.jpg"
+          src="https://source.unsplash.com/VieM9BdZKFo"
           alt="hero"
           // layout="fill"
           width={1700}
@@ -22,7 +22,7 @@ const Index = () => {
         />
         <div className={style.textContainer}>
           <h1>I'm Kentaro Imai!</h1>
-          <h3>JavaScript Developer</h3>
+          <h3>Be Frontend Developer!</h3>
         </div>
       </div>
       <div className={style.container}>
@@ -39,10 +39,10 @@ const Index = () => {
 
             <p>地元の地方公務員として一年務めたのち、</p>
             <p>フロントエンドエンジニアを目指して,</p>
-            <p>日々学習を続けている。</p>
+            <p>日々学習中。</p>
           </div>
           <Image
-            src="/images/profile.jpg"
+            src="https://source.unsplash.com/yG_kRzUtajU"
             alt="hero"
             height={1195}
             width={1000}
@@ -54,7 +54,7 @@ const Index = () => {
 
         <div className={style.ctaButton}>
           <Link href="/contact">
-            <a>Make It Happen!</a>
+            <a>Contact free!</a>
           </Link>
         </div>
       </div>
