@@ -9,7 +9,10 @@ import { Works } from '../components/oraganisms/Works';
 const Index = () => {
   return (
     <Layout>
-      <Seo title="Imkn" description="Kentaro Imaiのポートフォリオサイトです" />
+      <Seo
+        title="Imkn IT Blog Top"
+        description="Kentaro Imaiのポートフォリオサイトです"
+      />
       <div className={style.hero}>
         <Image
           src="https://source.unsplash.com/VieM9BdZKFo"

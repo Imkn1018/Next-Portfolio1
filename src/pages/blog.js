@@ -9,7 +9,7 @@ import { getAllBlogs, blogsPerPage } from '../utils/mdQueries.js ';
 const Blog = ({ blogs, numberPages }) => {
   return (
     <Layout>
-      <Seo title="ブログ" description="これはブログページです" />
+      <Seo title="Imknブログ" description="これはブログページです" />
       <div className={style.wrapper}>
         <div className={style.container}>
           <h1>Blog</h1>

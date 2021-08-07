@@ -9,7 +9,7 @@ const Footer = () => {
           <img src="/images/github.svg" alt="logo" />
         </a>
 
-        <a href="https://www.google.com/">
+        <a href="https://twitter.com/imkm1018">
           <img src="/images/twitter.svg" alt="logo" />
         </a>
         <a href="https://www.facebook.com/profile.php?id=100010857344034">
