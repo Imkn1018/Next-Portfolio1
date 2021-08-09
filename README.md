@@ -1,34 +1,28 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+![https://user-images.githubusercontent.com/80088680/128652230-d0f6f252-cbe9-4f83-8c10-d8bfb79d39b0.png](https://user-images.githubusercontent.com/80088680/128652230-d0f6f252-cbe9-4f83-8c10-d8bfb79d39b0.png)
 
-## Getting Started
+[https://imkn-blog.vercel.app/](https://imkn-blog.vercel.app/)
 
-First, run the development server:
+## サイト概要
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+自分用の日々学んだことを発信するブログサイトです。
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+開発は、React のフレームワークである Next.js を軸にして行いました。
+Next.js の理解が深まったと共に、SSR、SSG などの通信方式の違いを学ぶいい機会となりました。
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+## 作成した目的
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+IT 分野で学んだことをアウトプットし、理解を深めることを目的に開発しました。
+また、これを作成する事で、React だけでなくそのフレームワークである Next.js の基礎を身に付けることも狙いでした。
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+## 機能一覧
 
-## Learn More
+- 自己紹介ページ表示機能
+- ブログ一覧表示機能
+- ブログ詳細表示機能
+- 問い合わせ機能
 
-To learn more about Next.js, take a look at the following resources:
+## 開発環境
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- JavaScript
+- React
+- Vercel
